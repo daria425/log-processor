@@ -4,8 +4,7 @@ from utils import parse_log_line
 def basic_processor(file_path: str):
     parsed_logs = []
     with open(file_path, 'r') as f:
-        logs = f.readlines()
-        for log in logs:
+        for log in f:
             parsed_log = parse_log_line(log)
             if parsed_log:
                 parsed_logs.append(parsed_log)
