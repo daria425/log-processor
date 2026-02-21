@@ -33,4 +33,3 @@ def streaming_processor(file_path: str):
         "avg_response_time_ms": avg_response_time,
         "status_codes_count": status_codes_count
     }
-    # do shit
