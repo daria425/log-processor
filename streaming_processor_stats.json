@@ -1,0 +1,150 @@
+{
+    "peak_memory_usage_mb": 0.025104522705078125,
+    "cumulative_time": 8.97004352,
+    "function_profiles": {
+        "streaming_processor": {
+            "ncalls": "1",
+            "tottime": 1.601,
+            "percall_tottime": 1.601,
+            "cumtime": 8.97,
+            "percall_cumtime": 8.97,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 17
+        },
+        "parse_lines": {
+            "ncalls": "500001",
+            "tottime": 0.458,
+            "percall_tottime": 0.0,
+            "cumtime": 7.369,
+            "percall_cumtime": 0.0,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 10
+        },
+        "parse_log_line": {
+            "ncalls": "500000",
+            "tottime": 2.588,
+            "percall_tottime": 0.0,
+            "cumtime": 5.409,
+            "percall_cumtime": 0.0,
+            "file_name": "/home/daria/projects/log-processor/utils.py",
+            "line_number": 1
+        },
+        "<method 'split' of 'str' objects>": {
+            "ncalls": "500000",
+            "tottime": 1.678,
+            "percall_tottime": 0.0,
+            "cumtime": 1.678,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "read_lines": {
+            "ncalls": "500001",
+            "tottime": 0.862,
+            "percall_tottime": 0.0,
+            "cumtime": 1.502,
+            "percall_cumtime": 0.0,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 4
+        },
+        "<method 'strip' of 'str' objects>": {
+            "ncalls": "1000000",
+            "tottime": 0.947,
+            "percall_tottime": 0.0,
+            "cumtime": 0.947,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'replace' of 'str' objects>": {
+            "ncalls": "500000",
+            "tottime": 0.816,
+            "percall_tottime": 0.0,
+            "cumtime": 0.816,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "decode": {
+            "ncalls": "3289",
+            "tottime": 0.007,
+            "percall_tottime": 0.0,
+            "cumtime": 0.02,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen codecs>",
+            "line_number": 319
+        },
+        "<built-in method _codecs.utf_8_decode>": {
+            "ncalls": "3289",
+            "tottime": 0.013,
+            "percall_tottime": 0.0,
+            "cumtime": 0.013,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _io.open>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'disable' of '_lsprof.Profiler' objects>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method '__exit__' of '_io._IOBase' objects>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _tracemalloc.stop>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "__init__": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen codecs>",
+            "line_number": 260
+        },
+        "<built-in method _tracemalloc.get_traced_memory>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _tracemalloc.start>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        }
+    }
+}
