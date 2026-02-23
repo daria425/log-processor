@@ -1,11 +1,9 @@
 
 import logging
 
-# Create a logger for the package
 logger = logging.getLogger("log_processor")
 
 # Add NullHandler to prevent "No handlers could be found" warnings
-# Applications using this package should configure their own handlers
 logger.addHandler(logging.NullHandler())
 
 
