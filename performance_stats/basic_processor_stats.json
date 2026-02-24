@@ -1,0 +1,150 @@
+{
+  "peak_memory_usage_mb": 175.75272369384766,
+  "cumulative_time": 10.683376594000004,
+  "function_profiles": {
+    "basic_processor": {
+      "ncalls": "1",
+      "tottime": 2.19,
+      "percall_tottime": 2.19,
+      "cumtime": 10.683,
+      "percall_cumtime": 10.683,
+      "file_name": "/home/daria/projects/log-processor/basic_processor.py",
+      "line_number": 4
+    },
+    "parse_log_line": {
+      "ncalls": "500000",
+      "tottime": 3.649,
+      "percall_tottime": 0.0,
+      "cumtime": 7.937,
+      "percall_cumtime": 0.0,
+      "file_name": "/home/daria/projects/log-processor/utils.py",
+      "line_number": 1
+    },
+    "<method 'split' of 'str' objects>": {
+      "ncalls": "500000",
+      "tottime": 2.881,
+      "percall_tottime": 0.0,
+      "cumtime": 2.881,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<method 'replace' of 'str' objects>": {
+      "ncalls": "500000",
+      "tottime": 0.866,
+      "percall_tottime": 0.0,
+      "cumtime": 0.866,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<method 'strip' of 'str' objects>": {
+      "ncalls": "500000",
+      "tottime": 0.54,
+      "percall_tottime": 0.0,
+      "cumtime": 0.54,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<method 'append' of 'list' objects>": {
+      "ncalls": "500000",
+      "tottime": 0.473,
+      "percall_tottime": 0.0,
+      "cumtime": 0.473,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "decode": {
+      "ncalls": "3289",
+      "tottime": 0.008,
+      "percall_tottime": 0.0,
+      "cumtime": 0.083,
+      "percall_cumtime": 0.0,
+      "file_name": "<frozen codecs>",
+      "line_number": 319
+    },
+    "<built-in method _codecs.utf_8_decode>": {
+      "ncalls": "3289",
+      "tottime": 0.075,
+      "percall_tottime": 0.0,
+      "cumtime": 0.075,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<built-in method _io.open>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<method '__exit__' of '_io._IOBase' objects>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<method 'disable' of '_lsprof.Profiler' objects>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<built-in method _tracemalloc.stop>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "__init__": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "<frozen codecs>",
+      "line_number": 260
+    },
+    "<built-in method _tracemalloc.get_traced_memory>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<built-in method _tracemalloc.start>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    },
+    "<built-in method builtins.len>": {
+      "ncalls": "1",
+      "tottime": 0.0,
+      "percall_tottime": 0.0,
+      "cumtime": 0.0,
+      "percall_cumtime": 0.0,
+      "file_name": "~",
+      "line_number": 0
+    }
+  }
+}
