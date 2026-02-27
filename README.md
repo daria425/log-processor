@@ -1,0 +1,3 @@
+# log-processor
+
+A Python exploration into processing large line-delimited files (web server logs, JSONL, etc.) as efficiently as possible. The core idea is a streaming pipeline that reads line by line, keeping memory usage constant regardless of file size, benchmarked against a naive baseline that loads everything into memory. Optimisations explored include compiled regex, parallel chunk processing with `concurrent.futures`, PyPy, and Cython for the hot path. The longer term goal is for this to serve as the backbone of an AI agent that streams, filters, and summarises logs, sending only relevant errors to an LLM rather than a whole file that would blow any context window.
