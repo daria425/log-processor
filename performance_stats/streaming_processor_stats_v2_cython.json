@@ -1,0 +1,133 @@
+{
+    "peak_memory_usage_mb": 0.023916244506835938,
+    "cumulative_time": 345.55101339600003,
+    "true_elapsed_time": 345.5508939199999,
+    "function_profiles": {
+        "streaming_processor_v2": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 345.551,
+            "percall_cumtime": 345.551,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 88
+        },
+        "parse_lines_regex": {
+            "ncalls": "1",
+            "tottime": 104.539,
+            "percall_tottime": 104.539,
+            "cumtime": 345.551,
+            "percall_cumtime": 345.551,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 39
+        },
+        "read_lines": {
+            "ncalls": "33143315",
+            "tottime": 146.011,
+            "percall_tottime": 0.0,
+            "cumtime": 241.012,
+            "percall_cumtime": 0.0,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 10
+        },
+        "<method 'strip' of 'str' objects>": {
+            "ncalls": "33143314",
+            "tottime": 93.69,
+            "percall_tottime": 0.0,
+            "cumtime": 93.69,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "decode": {
+            "ncalls": "238180",
+            "tottime": 0.442,
+            "percall_tottime": 0.0,
+            "cumtime": 1.311,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen codecs>",
+            "line_number": 319
+        },
+        "<built-in method _codecs.utf_8_decode>": {
+            "ncalls": "238180",
+            "tottime": 0.869,
+            "percall_tottime": 0.0,
+            "cumtime": 0.869,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method '__exit__' of '_io._IOBase' objects>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'disable' of '_lsprof.Profiler' objects>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _io.open>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _tracemalloc.stop>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method _tracemalloc.start>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "__init__": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen codecs>",
+            "line_number": 260
+        },
+        "<built-in method _tracemalloc.get_traced_memory>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method time.perf_counter>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        }
+    }
+}

@@ -13,11 +13,11 @@ def read_lines(file_path: str, boundaries: Optional[tuple[int, int]] = None):
         with open(file_path, "rb") as f:
             f.seek(start)
             while f.tell() < end:
-                yield f.readline().decode("utf-8").strip()
+                yield f.readline().decode("utf-8")
     else:
         with open(file_path) as f:
             for line in f:
-                yield line.strip()
+                yield line
 
 
 def parse_lines_to_dict(lines):
