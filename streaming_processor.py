@@ -1,7 +1,8 @@
 import os
 from concurrent.futures import ProcessPoolExecutor
 from typing import Optional
-from utils import parse_log_line_to_dict, parse_log_line_regex, LogEntry, get_chunk_boundaries
+from parser import parse_log_line_regex
+from utils import parse_log_line_to_dict, LogEntry, get_chunk_boundaries
 from nodes.logs_analysis import send_log_batch
 from logger import logger
 
@@ -167,7 +168,8 @@ def process_chunk(file_path: str, start: int, end: int, batch_size: int = 50) ->
         summaries.append(summary)
     return {
         "total_logs": total,
-        "response_time_sum": response_time_sum,  # raw sum not avg - needed for correct merge
+        # raw sum not avg - needed for correct merge
+        "response_time_sum": response_time_sum,
         "status_codes_count": status_codes_count,
         "summaries": summaries
     }

@@ -33,15 +33,15 @@ def parse_log_line_to_dict(line: str):
 def parse_log_line_regex(line):
     """
     Parse a log line using regex pattern matching and extract log entry components.
-    
+
     Args:
         line (str): A single log line to be parsed.
-    
+
     Returns:
         LogEntry: A LogEntry object containing parsed timestamp, method, endpoint, 
                   status_code, and response_time_ms if the line matches the pattern.
         None: If the line does not match the expected pattern.
-    
+
     Raises:
         ValueError: If status_code_str or response_time_str cannot be converted to int.
     """
@@ -53,13 +53,9 @@ def parse_log_line_regex(line):
             method=method,
             endpoint=endpoint,
             status_code=int(status_code_str),
-            response_time_ms=int(response_time_str)
+            response_time_ms=int(response_time_str.replace("ms", ""))
         )
     return None
-
-
-def process_chunk(chunk):
-    pass
 
 
 def get_chunk_boundaries(file_path: str, num_workers: int) -> list[tuple[int, int]]:
