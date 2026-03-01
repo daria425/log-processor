@@ -1,7 +1,9 @@
 import os
+import logging
 from concurrent.futures import ProcessPoolExecutor
 from typing import Optional
 from parser import parse_log_line_regex
+from logger import setup_default_logging
 from utils import parse_log_line_to_dict, LogEntry, get_chunk_boundaries
 from nodes.logs_analysis import send_log_batch
 from logger import logger
@@ -13,11 +15,11 @@ def read_lines(file_path: str, boundaries: Optional[tuple[int, int]] = None):
         with open(file_path, "rb") as f:
             f.seek(start)
             while f.tell() < end:
-                yield f.readline().decode("utf-8")
+                yield f.readline().decode("utf-8").rstrip("\n")
     else:
         with open(file_path) as f:
             for line in f:
-                yield line
+                yield line.rstrip("\n")
 
 
 def parse_lines_to_dict(lines):
@@ -160,6 +162,9 @@ def process_chunk(file_path: str, start: int, end: int, batch_size: int = 50) ->
             }
             errors.append(log_data)
             if len(errors) >= batch_size:
+                logger.info("Sending batch to llm")
+                sample = errors[0]
+                logger.debug(f"Sample log for LLM: {sample}")
                 summary = send_log_batch(errors)
                 summaries.append(summary)
                 errors.clear()
@@ -187,7 +192,7 @@ def streaming_processor_v3(file_path: str) -> dict:
     num_workers = os.cpu_count() // 2
     boundaries = get_chunk_boundaries(file_path, num_workers)
 
-    with ProcessPoolExecutor(max_workers=num_workers) as executor:
+    with ProcessPoolExecutor(max_workers=num_workers, initializer=setup_default_logging, initargs=(logging.DEBUG,)) as executor:
         futures = [
             executor.submit(process_chunk, file_path, start, end)
             for start, end in boundaries

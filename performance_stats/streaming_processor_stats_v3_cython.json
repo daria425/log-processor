@@ -1,14 +1,14 @@
 {
-    "peak_memory_usage_mb": 0.23099899291992188,
-    "cumulative_time": 90.89677666599995,
-    "true_elapsed_time": 90.8961233949999,
+    "peak_memory_usage_mb": 0.23111534118652344,
+    "cumulative_time": 92.62039282199997,
+    "true_elapsed_time": 92.62002130600013,
     "function_profiles": {
         "streaming_processor_v3": {
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.896,
-            "percall_cumtime": 90.896,
+            "cumtime": 92.62,
+            "percall_cumtime": 92.62,
             "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
             "line_number": 178
         },
@@ -25,8 +25,8 @@
             "ncalls": "1",
             "tottime": 0.001,
             "percall_tottime": 0.001,
-            "cumtime": 90.883,
-            "percall_cumtime": 90.883,
+            "cumtime": 92.615,
+            "percall_cumtime": 92.615,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 864
         },
@@ -43,8 +43,8 @@
             "ncalls": "2/1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.861,
-            "percall_cumtime": 90.861,
+            "cumtime": 92.594,
+            "percall_cumtime": 92.594,
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 1153
         },
@@ -52,8 +52,8 @@
             "ncalls": "67/4",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 90.861,
-            "percall_cumtime": 22.715,
+            "cumtime": 92.594,
+            "percall_cumtime": 23.149,
             "file_name": "~",
             "line_number": 0
         },
@@ -61,8 +61,8 @@
             "ncalls": "2/1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.86,
-            "percall_cumtime": 90.86,
+            "cumtime": 92.594,
+            "percall_cumtime": 92.594,
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 1016
         },
@@ -70,8 +70,8 @@
             "ncalls": "2/1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.86,
-            "percall_cumtime": 90.86,
+            "cumtime": 92.594,
+            "percall_cumtime": 92.594,
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 1056
         },
@@ -88,26 +88,26 @@
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.86,
-            "percall_cumtime": 90.86,
+            "cumtime": 92.594,
+            "percall_cumtime": 92.594,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 574
         },
         "_join_executor_internals": {
             "ncalls": "1",
-            "tottime": 0.001,
-            "percall_tottime": 0.001,
-            "cumtime": 90.86,
-            "percall_cumtime": 90.86,
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 92.594,
+            "percall_cumtime": 92.594,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 578
         },
         "__call__": {
             "ncalls": "10",
-            "tottime": 0.003,
+            "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 90.852,
-            "percall_cumtime": 9.085,
+            "cumtime": 92.588,
+            "percall_cumtime": 9.259,
             "file_name": "/usr/lib/python3.12/multiprocessing/util.py",
             "line_number": 208
         },
@@ -115,8 +115,8 @@
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 90.851,
-            "percall_cumtime": 90.851,
+            "cumtime": 92.588,
+            "percall_cumtime": 92.588,
             "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
             "line_number": 147
         },
@@ -124,35 +124,35 @@
             "ncalls": "10",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 90.846,
-            "percall_cumtime": 9.085,
+            "cumtime": 92.581,
+            "percall_cumtime": 9.258,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 415
         },
         "wait": {
-            "ncalls": "6/1",
+            "ncalls": "2/1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 323
+            "line_number": 637
         },
         "select": {
             "ncalls": "29",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 90.834,
-            "percall_cumtime": 3.132,
+            "cumtime": 92.568,
+            "percall_cumtime": 3.192,
             "file_name": "/usr/lib/python3.12/selectors.py",
             "line_number": 402
         },
         "<method 'poll' of 'select.poll' objects>": {
             "ncalls": "29",
-            "tottime": 90.833,
-            "percall_tottime": 3.132,
-            "cumtime": 90.833,
-            "percall_cumtime": 3.132,
+            "tottime": 92.567,
+            "percall_tottime": 3.192,
+            "cumtime": 92.567,
+            "percall_cumtime": 3.192,
             "file_name": "~",
             "line_number": 0
         },
@@ -160,8 +160,8 @@
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.02,
-            "percall_cumtime": 0.02,
+            "cumtime": 0.018,
+            "percall_cumtime": 0.018,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 791
         },
@@ -169,7 +169,7 @@
             "ncalls": "8",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 0.02,
+            "cumtime": 0.018,
             "percall_cumtime": 0.002,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 799
@@ -187,7 +187,7 @@
             "ncalls": "8",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 0.016,
+            "cumtime": 0.014,
             "percall_cumtime": 0.002,
             "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
             "line_number": 279
@@ -205,37 +205,37 @@
             "ncalls": "8",
             "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 0.012,
-            "percall_cumtime": 0.002,
+            "cumtime": 0.011,
+            "percall_cumtime": 0.001,
             "file_name": "/usr/lib/python3.12/multiprocessing/popen_fork.py",
             "line_number": 62
         },
         "<built-in method posix.fork>": {
             "ncalls": "8",
-            "tottime": 0.009,
+            "tottime": 0.008,
             "percall_tottime": 0.001,
-            "cumtime": 0.01,
+            "cumtime": 0.009,
             "percall_cumtime": 0.001,
             "file_name": "~",
             "line_number": 0
         },
-        "_find_and_load": {
-            "ncalls": "2",
+        "submit": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.007,
-            "percall_cumtime": 0.003,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 1349
+            "percall_cumtime": 0.001,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 810
         },
-        "_find_and_load_unlocked": {
-            "ncalls": "2",
+        "send_bytes": {
+            "ncalls": "25",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.006,
-            "percall_cumtime": 0.003,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 1304
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 182
         },
         "poll": {
             "ncalls": "19",
@@ -246,6 +246,15 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
             "line_number": 253
         },
+        "wakeup": {
+            "ncalls": "9",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.005,
+            "percall_cumtime": 0.001,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 84
+        },
         "<built-in method posix.waitpid>": {
             "ncalls": "52",
             "tottime": 0.005,
@@ -255,68 +264,32 @@
             "file_name": "~",
             "line_number": 0
         },
-        "get_chunk_boundaries": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.005,
-            "percall_cumtime": 0.005,
-            "file_name": "/home/daria/projects/log-processor/utils.py",
-            "line_number": 61
-        },
-        "_check_system_limits": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.005,
-            "percall_cumtime": 0.005,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 604
-        },
-        "<method 'readline' of '_io.BufferedReader' objects>": {
-            "ncalls": "14",
-            "tottime": 0.005,
-            "percall_tottime": 0.0,
-            "cumtime": 0.005,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_load_unlocked": {
+        "_find_and_load": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.004,
             "percall_cumtime": 0.002,
             "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 911
+            "line_number": 1349
         },
-        "_finalize_join": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.004,
-            "percall_cumtime": 0.004,
-            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
-            "line_number": 214
-        },
-        "exec_module": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.004,
-            "percall_cumtime": 0.002,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 989
-        },
-        "get_code": {
+        "_find_and_load_unlocked": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.003,
             "percall_cumtime": 0.002,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 1062
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 1304
+        },
+        "_finalize_join": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.003,
+            "percall_cumtime": 0.003,
+            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
+            "line_number": 214
         },
         "clear": {
             "ncalls": "10",
@@ -327,23 +300,41 @@
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 88
         },
-        "submit": {
+        "put": {
             "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.002,
+            "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 810
+            "file_name": "/usr/lib/python3.12/queue.py",
+            "line_number": 122
         },
-        "register": {
-            "ncalls": "119",
-            "tottime": 0.001,
+        "_check_system_limits": {
+            "ncalls": "1",
+            "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/selectors.py",
-            "line_number": 234
+            "cumtime": 0.003,
+            "percall_cumtime": 0.003,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 604
+        },
+        "_load_unlocked": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.002,
+            "percall_cumtime": 0.001,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 911
+        },
+        "exec_module": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.002,
+            "percall_cumtime": 0.001,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 989
         },
         "_poll": {
             "ncalls": "19",
@@ -354,104 +345,50 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
             "line_number": 439
         },
-        "get_data": {
-            "ncalls": "2",
-            "tottime": 0.0,
+        "register": {
+            "ncalls": "119",
+            "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 0.002,
-            "percall_cumtime": 0.001,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 1183
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/selectors.py",
+            "line_number": 234
         },
-        "_find_spec": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.002,
-            "percall_cumtime": 0.001,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 1240
-        },
-        "send_bytes": {
-            "ncalls": "25",
-            "tottime": 0.0,
+        "<built-in method builtins.hasattr>": {
+            "ncalls": "54",
+            "tottime": 0.002,
             "percall_tottime": 0.0,
             "cumtime": 0.002,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 182
-        },
-        "Lock": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 166
-        },
-        "recv": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.002,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 246
-        },
-        "find_spec": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 982
-        },
-        "_get_spec": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 1588
+            "file_name": "~",
+            "line_number": 0
         },
         "dumps": {
             "ncalls": "16",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.001,
+            "cumtime": 0.002,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/multiprocessing/reduction.py",
             "line_number": 48
         },
-        "<built-in method posix.stat>": {
-            "ncalls": "7",
-            "tottime": 0.001,
+        "get_code": {
+            "ncalls": "2",
+            "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "cumtime": 0.002,
+            "percall_cumtime": 0.001,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 1062
         },
-        "_send_bytes": {
-            "ncalls": "25",
+        "recv": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 406
-        },
-        "_path_stat": {
-            "ncalls": "6",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 140
+            "line_number": 246
         },
         "add_call_item_to_queue": {
             "ncalls": "11",
@@ -462,59 +399,23 @@
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 392
         },
-        "put": {
-            "ncalls": "8",
+        "Lock": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/queue.py",
-            "line_number": 122
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 166
         },
-        "result": {
-            "ncalls": "8",
+        "_send_bytes": {
+            "ncalls": "25",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 428
-        },
-        "<method 'read' of '_io.BufferedReader' objects>": {
-            "ncalls": "2",
-            "tottime": 0.001,
-            "percall_tottime": 0.001,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.001,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "process_result_item": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 450
-        },
-        "_path_isfile": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 159
-        },
-        "_path_is_mode_type": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 150
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 406
         },
         "_recv_bytes": {
             "ncalls": "17",
@@ -525,32 +426,23 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
             "line_number": 429
         },
-        "<built-in method _io.open_code>": {
-            "ncalls": "2",
-            "tottime": 0.001,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "close": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 73
-        },
-        "wakeup": {
-            "ncalls": "9",
+        "process_result_item": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 84
+            "line_number": 450
+        },
+        "result": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 428
         },
         "_feed": {
             "ncalls": "1",
@@ -561,15 +453,6 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
             "line_number": 231
         },
-        "set_result": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 537
-        },
         "_compile_bytecode": {
             "ncalls": "2",
             "tottime": 0.0,
@@ -578,15 +461,6 @@
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 751
-        },
-        "<built-in method _pickle.loads>": {
-            "ncalls": "8",
-            "tottime": 0.001,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
         },
         "<built-in method marshal.loads>": {
             "ncalls": "2",
@@ -606,45 +480,18 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
             "line_number": 390
         },
-        "_call_with_frames_removed": {
-            "ncalls": "4",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 480
-        },
-        "_start_executor_manager_thread": {
+        "set_result": {
             "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 766
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 537
         },
-        "<built-in method _tracemalloc.stop>": {
-            "ncalls": "1",
+        "<method 'dump' of '_pickle.Pickler' objects>": {
+            "ncalls": "16",
             "tottime": 0.001,
-            "percall_tottime": 0.001,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.001,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_releaseLock": {
-            "ncalls": "8",
-            "tottime": 0.001,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/logging/__init__.py",
-            "line_number": 243
-        },
-        "<built-in method builtins.exec>": {
-            "ncalls": "2",
-            "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
@@ -660,23 +507,14 @@
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 394
         },
-        "shutdown_workers": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.001,
-            "percall_cumtime": 0.001,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 560
-        },
-        "recv_bytes": {
-            "ncalls": "9",
+        "_find_spec": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.001,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 208
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 1240
         },
         "get": {
             "ncalls": "19",
@@ -687,23 +525,41 @@
             "file_name": "/usr/lib/python3.12/queue.py",
             "line_number": 154
         },
-        "__enter__": {
-            "ncalls": "1",
-            "tottime": 0.0,
+        "<built-in method _pickle.loads>": {
+            "ncalls": "8",
+            "tottime": 0.001,
             "percall_tottime": 0.0,
-            "cumtime": 0.0,
+            "cumtime": 0.001,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 643
+            "file_name": "~",
+            "line_number": 0
         },
-        "<module>": {
-            "ncalls": "1",
+        "_call_with_frames_removed": {
+            "ncalls": "4",
             "tottime": 0.0,
             "percall_tottime": 0.0,
-            "cumtime": 0.0,
+            "cumtime": 0.001,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/popen_fork.py",
-            "line_number": 1
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 480
+        },
+        "recv_bytes": {
+            "ncalls": "9",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 208
+        },
+        "<built-in method builtins.exec>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "_send": {
             "ncalls": "25",
@@ -714,6 +570,60 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
             "line_number": 381
         },
+        "shutdown_workers": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.001,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 560
+        },
+        "<built-in method posix.write>": {
+            "ncalls": "25",
+            "tottime": 0.001,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_releaseLock": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/logging/__init__.py",
+            "line_number": 243
+        },
+        "get_chunk_boundaries": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.001,
+            "percall_cumtime": 0.001,
+            "file_name": "/home/daria/projects/log-processor/utils.py",
+            "line_number": 61
+        },
+        "_start_executor_manager_thread": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 766
+        },
+        "<module>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/popen_fork.py",
+            "line_number": 1
+        },
         "_flush_std_streams": {
             "ncalls": "8",
             "tottime": 0.0,
@@ -723,68 +633,50 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/util.py",
             "line_number": 436
         },
-        "<built-in method builtins.next>": {
-            "ncalls": "29",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<built-in method posix.write>": {
-            "ncalls": "25",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "SimpleQueue": {
+        "close": {
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
-            "line_number": 110
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 73
         },
-        "_make_name": {
-            "ncalls": "5",
+        "find_spec": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 121
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 982
         },
-        "<built-in method builtins.__build_class__>": {
-            "ncalls": "9",
+        "_get_spec": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 1588
+        },
+        "__enter__": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 643
+        },
+        "<built-in method _tracemalloc.stop>": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "~",
             "line_number": 0
-        },
-        "<method 'dump' of '_pickle.Pickler' objects>": {
-            "ncalls": "16",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "__next__": {
-            "ncalls": "5",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/tempfile.py",
-            "line_number": 292
         },
         "notify_all": {
             "ncalls": "10",
@@ -795,14 +687,41 @@
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 424
         },
-        "acquire": {
-            "ncalls": "2",
+        "_cleanup": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 304
+            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
+            "line_number": 61
+        },
+        "<built-in method builtins.__build_class__>": {
+            "ncalls": "9",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method builtins.next>": {
+            "ncalls": "29",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_make_name": {
+            "ncalls": "5",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 121
         },
         "_start_thread": {
             "ncalls": "1",
@@ -813,17 +732,17 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
             "line_number": 175
         },
-        "_cleanup": {
-            "ncalls": "8",
+        "SimpleQueue": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
-            "line_number": 61
+            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
+            "line_number": 110
         },
-        "<built-in method posix.read>": {
-            "ncalls": "25",
+        "<method 'release' of '_thread.lock' objects>": {
+            "ncalls": "13",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -840,14 +759,32 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'copy' of 'dict' objects>": {
-            "ncalls": "24",
+        "__next__": {
+            "ncalls": "5",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/tempfile.py",
+            "line_number": 292
+        },
+        "<built-in method posix.read>": {
+            "ncalls": "25",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "~",
             "line_number": 0
+        },
+        "get_data": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 1183
         },
         "<lambda>": {
             "ncalls": "119",
@@ -857,42 +794,6 @@
             "percall_cumtime": 0.0,
             "file_name": "<string>",
             "line_number": 1
-        },
-        "<built-in method posix.pipe>": {
-            "ncalls": "19",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'release' of '_thread.lock' objects>": {
-            "ncalls": "13",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "module_from_spec": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 806
-        },
-        "<built-in method posix.close>": {
-            "ncalls": "38",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
         },
         "<method 'flush' of '_io.TextIOWrapper' objects>": {
             "ncalls": "16",
@@ -912,15 +813,6 @@
             "file_name": "/usr/lib/python3.12/selectors.py",
             "line_number": 215
         },
-        "_init_module_attrs": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 733
-        },
         "get_n_children_alive": {
             "ncalls": "2",
             "tottime": 0.0,
@@ -929,6 +821,15 @@
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 595
+        },
+        "<method 'copy' of 'dict' objects>": {
+            "ncalls": "24",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "cache_from_source": {
             "ncalls": "4",
@@ -939,23 +840,14 @@
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 482
         },
-        "setdefault": {
+        "module_from_spec": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 124
-        },
-        "_fileobj_to_fd": {
-            "ncalls": "119",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/selectors.py",
-            "line_number": 21
+            "line_number": 806
         },
         "parent": {
             "ncalls": "21",
@@ -966,26 +858,71 @@
             "file_name": "<frozen importlib._bootstrap>",
             "line_number": 645
         },
-        "<built-in method __new__ of type object at 0xa44b40>": {
-            "ncalls": "127",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'getbuffer' of '_io.BytesIO' objects>": {
-            "ncalls": "24",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
         "<built-in method builtins.sum>": {
             "ncalls": "4",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_init_module_attrs": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 733
+        },
+        "put_nowait": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
+            "line_number": 137
+        },
+        "<built-in method posix.pipe>": {
+            "ncalls": "19",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "rng": {
+            "ncalls": "5",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/tempfile.py",
+            "line_number": 281
+        },
+        "_fileobj_to_fd": {
+            "ncalls": "119",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/selectors.py",
+            "line_number": 21
+        },
+        "<genexpr>": {
+            "ncalls": "9",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
+            "line_number": 198
+        },
+        "<method 'register' of 'select.poll' objects>": {
+            "ncalls": "119",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1002,6 +939,42 @@
             "file_name": "<frozen importlib._bootstrap>",
             "line_number": 372
         },
+        "<method 'update' of 'dict' objects>": {
+            "ncalls": "16",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "is_alive": {
+            "ncalls": "16",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
+            "line_number": 153
+        },
+        "<built-in method posix.close>": {
+            "ncalls": "38",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "acquire": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 304
+        },
         "<method '__enter__' of '_thread.lock' objects>": {
             "ncalls": "56",
             "tottime": 0.0,
@@ -1011,26 +984,89 @@
             "file_name": "~",
             "line_number": 0
         },
-        "choices": {
-            "ncalls": "5",
+        "<built-in method __new__ of type object at 0xa44b40>": {
+            "ncalls": "127",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/random.py",
-            "line_number": 454
-        },
-        "put_nowait": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
-            "line_number": 137
+            "file_name": "~",
+            "line_number": 0
         },
         "<built-in method posix.getpid>": {
             "ncalls": "66",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method select.poll>": {
+            "ncalls": "29",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "set": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 616
+        },
+        "_is_owned": {
+            "ncalls": "46",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 314
+        },
+        "BoundedSemaphore": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 149
+        },
+        "cached": {
+            "ncalls": "4",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 632
+        },
+        "_get_cached": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 611
+        },
+        "<built-in method posix.stat>": {
+            "ncalls": "7",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'rpartition' of 'str' objects>": {
+            "ncalls": "31",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1047,114 +1083,6 @@
             "file_name": "~",
             "line_number": 0
         },
-        "Pipe": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
-            "line_number": 60
-        },
-        "set": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 616
-        },
-        "<method 'register' of 'select.poll' objects>": {
-            "ncalls": "119",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "__new__": {
-            "ncalls": "6",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/weakref.py",
-            "line_number": 347
-        },
-        "BoundedSemaphore": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 149
-        },
-        "<genexpr>": {
-            "ncalls": "9",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/home/daria/projects/log-processor/streaming_processor.py",
-            "line_number": 198
-        },
-        "cached": {
-            "ncalls": "4",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 632
-        },
-        "rng": {
-            "ncalls": "5",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/tempfile.py",
-            "line_number": 281
-        },
-        "_get_cached": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 611
-        },
-        "<built-in method _struct.pack>": {
-            "ncalls": "25",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_is_owned": {
-            "ncalls": "46",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 314
-        },
-        "full": {
-            "ncalls": "19",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
-            "line_number": 131
-        },
         "ident": {
             "ncalls": "8",
             "tottime": 0.0,
@@ -1164,80 +1092,62 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
             "line_number": 234
         },
-        "<built-in method _thread.get_ident>": {
-            "ncalls": "11",
+        "Pipe": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
+            "line_number": 60
         },
-        "current_thread": {
-            "ncalls": "3",
+        "set_running_or_notify_cancel": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1483
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 497
         },
-        "_release_save": {
-            "ncalls": "3",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 308
-        },
-        "<method 'rpartition' of 'str' objects>": {
-            "ncalls": "31",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "add": {
-            "ncalls": "10",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/_weakrefset.py",
-            "line_number": 85
-        },
-        "is_alive": {
-            "ncalls": "16",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
-            "line_number": 153
-        },
-        "<method 'add' of 'set' objects>": {
-            "ncalls": "19",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "register_after_fork": {
+        "_path_stat": {
             "ncalls": "6",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/util.py",
-            "line_number": 174
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 140
         },
-        "<method 'release' of '_thread.RLock' objects>": {
-            "ncalls": "8",
+        "<built-in method _io.open_code>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'read' of '_io.BufferedReader' objects>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'getbuffer' of '_io.BytesIO' objects>": {
+            "ncalls": "24",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'add' of 'set' objects>": {
+            "ncalls": "19",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1254,8 +1164,8 @@
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 126
         },
-        "<built-in method posix.cpu_count>": {
-            "ncalls": "1",
+        "<method 'release' of '_thread.RLock' objects>": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1263,14 +1173,23 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_set_tstate_lock": {
-            "ncalls": "2",
+        "<method '__exit__' of '_thread.lock' objects>": {
+            "ncalls": "68",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1043
+            "file_name": "~",
+            "line_number": 0
+        },
+        "register_after_fork": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/util.py",
+            "line_number": 174
         },
         "close_fds": {
             "ncalls": "8",
@@ -1290,134 +1209,8 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'write' of '_io.BytesIO' objects>": {
-            "ncalls": "25",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "__setitem__": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/weakref.py",
-            "line_number": 427
-        },
-        "_make_invoke_excepthook": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1354
-        },
-        "_get_module_lock": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 426
-        },
-        "<method '__exit__' of '_thread.lock' objects>": {
-            "ncalls": "68",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'tell' of '_io.BufferedReader' objects>": {
+        "<method 'readline' of '_io.BufferedReader' objects>": {
             "ncalls": "14",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "set_running_or_notify_cancel": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 497
-        },
-        "<method 'seek' of '_io.BufferedReader' objects>": {
-            "ncalls": "14",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "sentinel": {
-            "ncalls": "80",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
-            "line_number": 247
-        },
-        "<method 'random' of '_random.Random' objects>": {
-            "ncalls": "40",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_check_closed": {
-            "ncalls": "120",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
-            "line_number": 99
-        },
-        "<built-in method posix.sysconf>": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'clear' of 'dict' objects>": {
-            "ncalls": "29",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method '_is_zero' of '_multiprocessing.SemLock' objects>": {
-            "ncalls": "19",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'disable' of '_lsprof.Profiler' objects>": {
-            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1434,6 +1227,123 @@
             "file_name": "/usr/lib/python3.12/random.py",
             "line_number": 135
         },
+        "full": {
+            "ncalls": "19",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
+            "line_number": 131
+        },
+        "add": {
+            "ncalls": "10",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/_weakrefset.py",
+            "line_number": 85
+        },
+        "choices": {
+            "ncalls": "5",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/random.py",
+            "line_number": 454
+        },
+        "<method 'clear' of 'dict' objects>": {
+            "ncalls": "29",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_slotnames": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/copyreg.py",
+            "line_number": 107
+        },
+        "<method 'write' of '_io.BytesIO' objects>": {
+            "ncalls": "25",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_get_module_lock": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 426
+        },
+        "<built-in method _struct.pack>": {
+            "ncalls": "25",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_set_tstate_lock": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1043
+        },
+        "__setitem__": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/weakref.py",
+            "line_number": 427
+        },
+        "sentinel": {
+            "ncalls": "80",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
+            "line_number": 247
+        },
+        "spec_from_file_location": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 802
+        },
+        "<method 'pop' of 'dict' objects>": {
+            "ncalls": "10",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
         "_path_split": {
             "ncalls": "4",
             "tottime": 0.0,
@@ -1442,6 +1352,78 @@
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 132
+        },
+        "_acquireLock": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/logging/__init__.py",
+            "line_number": 234
+        },
+        "_stop": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1079
+        },
+        "<method 'seek' of '_io.BufferedReader' objects>": {
+            "ncalls": "14",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'tell' of '_io.BufferedReader' objects>": {
+            "ncalls": "14",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method builtins.isinstance>": {
+            "ncalls": "141",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_path_isfile": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 159
+        },
+        "_qsize": {
+            "ncalls": "19",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/queue.py",
+            "line_number": 209
+        },
+        "<built-in method _thread.allocate_lock>": {
+            "ncalls": "14",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "<method '__enter__' of '_thread.RLock' objects>": {
             "ncalls": "24",
@@ -1452,8 +1434,17 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'update' of 'dict' objects>": {
-            "ncalls": "16",
+        "_maintain_shutdown_locks": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 855
+        },
+        "<built-in method builtins.len>": {
+            "ncalls": "124",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1461,16 +1452,16 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_reset": {
-            "ncalls": "1",
+        "<built-in method _struct.unpack>": {
+            "ncalls": "17",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
-            "line_number": 71
+            "file_name": "~",
+            "line_number": 0
         },
-        "<built-in method select.poll>": {
+        "<built-in method time.monotonic>": {
             "ncalls": "29",
             "tottime": 0.0,
             "percall_tottime": 0.0,
@@ -1488,80 +1479,44 @@
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 1202
         },
-        "_finalize_close": {
+        "<function Random.seed at 0x73b3b17a7240>": {
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
-            "line_number": 224
+            "file_name": "~",
+            "line_number": 0
         },
-        "spec_from_file_location": {
+        "_check_closed": {
+            "ncalls": "120",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
+            "line_number": 99
+        },
+        "_path_is_mode_type": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 802
+            "line_number": 150
         },
-        "<built-in method builtins.hasattr>": {
-            "ncalls": "54",
+        "setdefault": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 124
         },
-        "<built-in method builtins.isinstance>": {
-            "ncalls": "141",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "fileno": {
-            "ncalls": "39",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 169
-        },
-        "getsize": {
+        "<built-in method posix.cpu_count>": {
             "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen genericpath>",
-            "line_number": 60
-        },
-        "<built-in method time.monotonic>": {
-            "ncalls": "29",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<built-in method _struct.unpack>": {
-            "ncalls": "17",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<built-in method builtins.len>": {
-            "ncalls": "124",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1578,17 +1533,17 @@
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 666
         },
-        "_slotnames": {
+        "_finalize_close": {
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/copyreg.py",
-            "line_number": 107
+            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
+            "line_number": 224
         },
-        "<built-in method _thread.allocate_lock>": {
-            "ncalls": "14",
+        "<method 'acquire' of '_multiprocessing.SemLock' objects>": {
+            "ncalls": "32",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1596,17 +1551,44 @@
             "file_name": "~",
             "line_number": 0
         },
-        "remove": {
-            "ncalls": "2",
+        "<method 'disable' of '_lsprof.Profiler' objects>": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 82
+            "file_name": "~",
+            "line_number": 0
         },
-        "<method '__exit__' of '_io._IOBase' objects>": {
-            "ncalls": "3",
+        "<method 'getvalue' of '_io.BytesIO' objects>": {
+            "ncalls": "26",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_reset": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/queues.py",
+            "line_number": 71
+        },
+        "fileno": {
+            "ncalls": "39",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 169
+        },
+        "<method 'acquire' of '_thread.RLock' objects>": {
+            "ncalls": "8",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1623,51 +1605,6 @@
             "file_name": "/usr/lib/python3.12/_weakrefset.py",
             "line_number": 39
         },
-        "_maintain_shutdown_locks": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 855
-        },
-        "_acquireLock": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/logging/__init__.py",
-            "line_number": 234
-        },
-        "_qsize": {
-            "ncalls": "19",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/queue.py",
-            "line_number": 209
-        },
-        "_stop": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1079
-        },
-        "Barrier": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 370
-        },
         "RLock": {
             "ncalls": "1",
             "tottime": 0.0,
@@ -1677,17 +1614,8 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
             "line_number": 191
         },
-        "<method 'getvalue' of '_io.BytesIO' objects>": {
+        "<method 'popleft' of 'collections.deque' objects>": {
             "ncalls": "26",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<method 'acquire' of '_multiprocessing.SemLock' objects>": {
-            "ncalls": "32",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1704,32 +1632,23 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method builtins.max>": {
-            "ncalls": "4",
+        "_path_abspath": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 185
         },
-        "_close": {
-            "ncalls": "6",
+        "Barrier": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 376
-        },
-        "<method 'popleft' of 'collections.deque' objects>": {
-            "ncalls": "26",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 370
         },
         "_handle_fromlist": {
             "ncalls": "4",
@@ -1740,8 +1659,8 @@
             "file_name": "<frozen importlib._bootstrap>",
             "line_number": 1390
         },
-        "<built-in method _io.open>": {
-            "ncalls": "1",
+        "<built-in method builtins.max>": {
+            "ncalls": "4",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1758,8 +1677,44 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'pop' of 'dict' objects>": {
-            "ncalls": "10",
+        "_close": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 376
+        },
+        "getsize": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen genericpath>",
+            "line_number": 60
+        },
+        "_put": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/queue.py",
+            "line_number": 213
+        },
+        "remove": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/weakref.py",
+            "line_number": 369
+        },
+        "<method '_is_zero' of '_multiprocessing.SemLock' objects>": {
+            "ncalls": "19",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1776,6 +1731,33 @@
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 84
         },
+        "Event": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 328
+        },
+        "<built-in method _io.open>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_make_invoke_excepthook": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1354
+        },
         "_get": {
             "ncalls": "8",
             "tottime": 0.0,
@@ -1784,24 +1766,6 @@
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/queue.py",
             "line_number": 217
-        },
-        "_put": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/queue.py",
-            "line_number": 213
-        },
-        "<built-in method _weakref._remove_dead_weakref>": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
         },
         "_validate_timestamp_pyc": {
             "ncalls": "2",
@@ -1821,24 +1785,6 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_check_writable": {
-            "ncalls": "25",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 143
-        },
-        "<function Random.seed at 0x707b293a7240>": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
         "<method 'items' of 'dict' objects>": {
             "ncalls": "8",
             "tottime": 0.0,
@@ -1848,8 +1794,8 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'release' of '_multiprocessing.SemLock' objects>": {
-            "ncalls": "16",
+        "<method '__exit__' of '_io._IOBase' objects>": {
+            "ncalls": "3",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1866,6 +1812,15 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
             "line_number": 46
         },
+        "<method 'release' of '_multiprocessing.SemLock' objects>": {
+            "ncalls": "16",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
         "<method 'discard' of 'set' objects>": {
             "ncalls": "18",
             "tottime": 0.0,
@@ -1875,26 +1830,35 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method builtins.getattr>": {
-            "ncalls": "17",
+        "_delete": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1106
         },
-        "_invoke_callbacks": {
-            "ncalls": "8",
+        "_path_isabs": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 337
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 180
         },
-        "<method 'get' of 'dict' objects>": {
-            "ncalls": "14",
+        "__new__": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 74
+        },
+        "<method '__exit__' of '_thread.RLock' objects>": {
+            "ncalls": "34",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1911,44 +1875,8 @@
             "file_name": "/usr/lib/python3.12/selectors.py",
             "line_number": 275
         },
-        "<method '__exit__' of '_thread.RLock' objects>": {
-            "ncalls": "34",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "Popen": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/popen_fork.py",
-            "line_number": 12
-        },
-        "_delete": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1106
-        },
-        "Event": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 328
-        },
-        "<method '_acquire_restore' of '_thread.RLock' objects>": {
-            "ncalls": "3",
+        "<built-in method builtins.getattr>": {
+            "ncalls": "17",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1974,8 +1902,26 @@
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 311
         },
-        "<method 'acquire' of '_thread.RLock' objects>": {
+        "_release_save": {
+            "ncalls": "3",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 308
+        },
+        "_invoke_callbacks": {
             "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 337
+        },
+        "<method 'get' of 'dict' objects>": {
+            "ncalls": "14",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -1983,14 +1929,41 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_set_ident": {
-            "ncalls": "2",
+        "_newname": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1036
+            "line_number": 837
+        },
+        "current_thread": {
+            "ncalls": "3",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1483
+        },
+        "<built-in method _thread.get_ident>": {
+            "ncalls": "11",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method '_acquire_restore' of '_thread.RLock' objects>": {
+            "ncalls": "3",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "_make_methods": {
             "ncalls": "5",
@@ -2001,23 +1974,14 @@
             "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
             "line_number": 90
         },
-        "_path_abspath": {
-            "ncalls": "2",
+        "Popen": {
+            "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 185
-        },
-        "daemon": {
-            "ncalls": "5",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 1234
+            "file_name": "/usr/lib/python3.12/multiprocessing/popen_fork.py",
+            "line_number": 12
         },
         "is_shutting_down": {
             "ncalls": "10",
@@ -2028,8 +1992,8 @@
             "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
             "line_number": 473
         },
-        "<method 'startswith' of 'str' objects>": {
-            "ncalls": "4",
+        "<method 'random' of '_random.Random' objects>": {
+            "ncalls": "40",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
@@ -2064,15 +2028,6 @@
             "file_name": "<frozen importlib._bootstrap>",
             "line_number": 445
         },
-        "_check_name_wrapper": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 643
-        },
         "<method '_release_save' of '_thread.RLock' objects>": {
             "ncalls": "3",
             "tottime": 0.0,
@@ -2091,14 +2046,68 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_newname": {
-            "ncalls": "1",
+        "_check_name_wrapper": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 643
+        },
+        "<method 'pop' of 'list' objects>": {
+            "ncalls": "4",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'difference_update' of 'set' objects>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "_set_ident": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/threading.py",
-            "line_number": 837
+            "line_number": 1036
+        },
+        "_verbose_message": {
+            "ncalls": "14",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 491
+        },
+        "<method 'startswith' of 'str' objects>": {
+            "ncalls": "4",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method from_bytes>": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "<built-in method _thread._set_sentinel>": {
             "ncalls": "2",
@@ -2118,42 +2127,6 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<method 'pop' of 'list' objects>": {
-            "ncalls": "4",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_path_isabs": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 180
-        },
-        "_verbose_message": {
-            "ncalls": "14",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 491
-        },
-        "<method 'difference_update' of 'set' objects>": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
         "<built-in method math.floor>": {
             "ncalls": "40",
             "tottime": 0.0,
@@ -2163,32 +2136,14 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method from_bytes>": {
-            "ncalls": "6",
+        "_check_writable": {
+            "ncalls": "25",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "_new_module": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap>",
-            "line_number": 48
-        },
-        "<built-in method _thread.get_native_id>": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 143
         },
         "debug": {
             "ncalls": "14",
@@ -2208,15 +2163,6 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method builtins.id>": {
-            "ncalls": "6",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
         "<method 'rfind' of 'str' objects>": {
             "ncalls": "4",
             "tottime": 0.0,
@@ -2226,7 +2172,43 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method _imp.find_frozen>": {
+        "_new_module": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap>",
+            "line_number": 48
+        },
+        "<built-in method builtins.id>": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "daemon": {
+            "ncalls": "5",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/threading.py",
+            "line_number": 1234
+        },
+        "<built-in method _weakref._remove_dead_weakref>": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<built-in method time.perf_counter>": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
@@ -2244,7 +2226,7 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method _imp.is_builtin>": {
+        "<built-in method _thread.get_native_id>": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
@@ -2252,6 +2234,15 @@
             "percall_cumtime": 0.0,
             "file_name": "~",
             "line_number": 0
+        },
+        "flag_executor_shutting_down": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
+            "line_number": 534
         },
         "<built-in method _imp.acquire_lock>": {
             "ncalls": "12",
@@ -2271,6 +2262,42 @@
             "file_name": "~",
             "line_number": 0
         },
+        "<built-in method _tracemalloc.get_traced_memory>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "<method 'get' of 'mappingproxy' objects>": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
+        },
+        "get_context": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
+            "line_number": 187
+        },
+        "Semaphore": {
+            "ncalls": "1",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
+            "line_number": 130
+        },
         "sub_debug": {
             "ncalls": "10",
             "tottime": 0.0,
@@ -2289,43 +2316,7 @@
             "file_name": "~",
             "line_number": 0
         },
-        "flag_executor_shutting_down": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/process.py",
-            "line_number": 534
-        },
-        "__get_result": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
-            "line_number": 398
-        },
-        "<built-in method _tracemalloc.get_traced_memory>": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "Semaphore": {
-            "ncalls": "1",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/synchronize.py",
-            "line_number": 130
-        },
-        "<method 'endswith' of 'str' objects>": {
+        "<built-in method _imp.is_builtin>": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
@@ -2333,51 +2324,6 @@
             "percall_cumtime": 0.0,
             "file_name": "~",
             "line_number": 0
-        },
-        "<method 'remove' of 'list' objects>": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "<built-in method time.perf_counter>": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
-        },
-        "name": {
-            "ncalls": "8",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
-            "line_number": 189
-        },
-        "get_start_method": {
-            "ncalls": "6",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
-            "line_number": 197
-        },
-        "get_context": {
-            "ncalls": "6",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
-            "line_number": 187
         },
         "<built-in method posix.waitstatus_to_exitcode>": {
             "ncalls": "8",
@@ -2388,14 +2334,59 @@
             "file_name": "~",
             "line_number": 0
         },
-        "_path_importer_cache": {
+        "__get_result": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/concurrent/futures/_base.py",
+            "line_number": 398
+        },
+        "name": {
+            "ncalls": "8",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/process.py",
+            "line_number": 189
+        },
+        "__del__": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
+            "line_number": 131
+        },
+        "<method 'endswith' of 'str' objects>": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 1469
+            "file_name": "~",
+            "line_number": 0
+        },
+        "get_start_method": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "/usr/lib/python3.12/multiprocessing/context.py",
+            "line_number": 197
+        },
+        "<method 'remove' of 'list' objects>": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "_init": {
             "ncalls": "1",
@@ -2415,16 +2406,16 @@
             "file_name": "~",
             "line_number": 0
         },
-        "__del__": {
-            "ncalls": "6",
+        "<built-in method _imp.find_frozen>": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "/usr/lib/python3.12/multiprocessing/connection.py",
-            "line_number": 131
+            "file_name": "~",
+            "line_number": 0
         },
-        "<method 'get' of 'mappingproxy' objects>": {
+        "<built-in method posix.sysconf>": {
             "ncalls": "1",
             "tottime": 0.0,
             "percall_tottime": 0.0,
@@ -2433,14 +2424,14 @@
             "file_name": "~",
             "line_number": 0
         },
-        "<built-in method posix.fspath>": {
-            "ncalls": "6",
+        "_path_importer_cache": {
+            "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
-            "file_name": "~",
-            "line_number": 0
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 1469
         },
         "is_set": {
             "ncalls": "4",
@@ -2450,6 +2441,15 @@
             "percall_cumtime": 0.0,
             "file_name": "/usr/lib/python3.12/threading.py",
             "line_number": 601
+        },
+        "<built-in method posix.fspath>": {
+            "ncalls": "6",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "~",
+            "line_number": 0
         },
         "current_process": {
             "ncalls": "5",
@@ -2487,6 +2487,15 @@
             "file_name": "~",
             "line_number": 0
         },
+        "get_filename": {
+            "ncalls": "2",
+            "tottime": 0.0,
+            "percall_tottime": 0.0,
+            "cumtime": 0.0,
+            "percall_cumtime": 0.0,
+            "file_name": "<frozen importlib._bootstrap_external>",
+            "line_number": 1178
+        },
         "create_module": {
             "ncalls": "2",
             "tottime": 0.0,
@@ -2495,15 +2504,6 @@
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap_external>",
             "line_number": 986
-        },
-        "_relax_case": {
-            "ncalls": "2",
-            "tottime": 0.0,
-            "percall_tottime": 0.0,
-            "cumtime": 0.0,
-            "percall_cumtime": 0.0,
-            "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 71
         },
         "has_location": {
             "ncalls": "2",
@@ -2514,14 +2514,14 @@
             "file_name": "<frozen importlib._bootstrap>",
             "line_number": 653
         },
-        "get_filename": {
+        "_relax_case": {
             "ncalls": "2",
             "tottime": 0.0,
             "percall_tottime": 0.0,
             "cumtime": 0.0,
             "percall_cumtime": 0.0,
             "file_name": "<frozen importlib._bootstrap_external>",
-            "line_number": 1178
+            "line_number": 71
         }
     }
 }

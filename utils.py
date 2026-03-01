@@ -3,7 +3,7 @@ import os
 from dataclasses import dataclass, field
 
 pattern = re.compile(
-    r'(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}) - (\w+) - (.+) - (\d{3}) - (\d+ms)')
+    r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+) - (\w+) - (.+) - (\d{3}) - (\d+ms)')
 
 
 @dataclass

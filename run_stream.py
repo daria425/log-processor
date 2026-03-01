@@ -1,8 +1,7 @@
 from profiler import Profiler
-from streaming_processor import streaming_processor_v2
-import json
+from logger import setup_default_logging
+from streaming_processor import streaming_processor_v3
+setup_default_logging(level=10)
 file_path = "mock_logs.log"
-profiler_instance = Profiler(streaming_processor_v2, file_path)
+profiler_instance = Profiler(streaming_processor_v3, file_path)
 stats = profiler_instance.profile()
-with open("performance_stats/streaming_processor_stats_v2_cython.json", "w") as f:
-    json.dump(stats, f, indent=4)
