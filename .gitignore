@@ -2,3 +2,5 @@
 CLAUDE.md
 __pycache__
 mock_logs.log
+.env
+tmp.py

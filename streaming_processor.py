@@ -5,8 +5,6 @@ from typing import Optional
 from parser import parse_log_line_regex
 from logger import setup_default_logging
 from utils import parse_log_line_to_dict, LogEntry, get_chunk_boundaries
-from nodes.logs_analysis import send_log_batch
-from logger import logger
 
 
 def read_lines(file_path: str, boundaries: Optional[tuple[int, int]] = None):
@@ -53,78 +51,6 @@ def parse_lines_regex(lines):
         yield current_entry
 
 
-def streaming_processor_v1(file_path: str, batch_size: int = 50):
-    lines = read_lines(file_path)
-    parsed = parse_lines_to_dict(lines)
-    total = 0
-    response_time_sum = 0
-    status_codes_count = {}
-    errors = []
-    for line in parsed:
-        total += 1
-        response_time_sum += line['response_time_ms']
-        status_code = line["status_code"]
-        if status_code not in status_codes_count:
-            status_codes_count[status_code] = 0
-        status_codes_count[status_code] += 1
-        if status_code not in [200, 201]:
-            log_data = {
-                ** line,
-                "traceback": "\n".join(line.get("traceback", []))
-            }
-            errors.append(log_data)
-            if len(errors) >= batch_size:
-                logger.info("Sending batch to llm")
-                sample = errors[0]
-                logger.debug(f"Sample log for LLM: {sample}")
-                send_log_batch(errors)
-                errors.clear()
-    avg_response_time = response_time_sum / total if total > 0 else 0
-    return {
-        "total_logs": total,
-        "avg_response_time_ms": avg_response_time,
-        "status_codes_count": status_codes_count
-    }
-
-
-def streaming_processor_v2(file_path: str, batch_size: int = 50):
-    lines = read_lines(file_path)
-    parsed = parse_lines_regex(lines)
-    total = 0
-    response_time_sum = 0
-    status_codes_count = {}
-    errors = []
-    for line in parsed:
-        total += 1
-        response_time_sum += line.response_time_ms
-        status_code = line.status_code
-        if status_code not in status_codes_count:
-            status_codes_count[status_code] = 0
-        status_codes_count[status_code] += 1
-        if status_code not in [200, 201]:
-            log_data = {
-                "timestamp": line.timestamp,
-                "method": line.method,
-                "endpoint": line.endpoint,
-                "status_code": line.status_code,
-                "response_time_ms": line.response_time_ms,
-                "traceback": "\n".join(line.traceback)
-            }
-            errors.append(log_data)
-            if len(errors) >= batch_size:
-                logger.info("Sending batch to llm")
-                sample = errors[0]
-                logger.debug(f"Sample log for LLM: {sample}")
-                send_log_batch(errors)
-                errors.clear()
-    avg_response_time = response_time_sum / total if total > 0 else 0
-    return {
-        "total_logs": total,
-        "avg_response_time_ms": avg_response_time,
-        "status_codes_count": status_codes_count
-    }
-
-
 def process_chunk(file_path: str, start: int, end: int, batch_size: int = 50) -> dict:
     """Process a single chunk of the log file, returning partial stats.
 
@@ -153,34 +79,22 @@ def process_chunk(file_path: str, start: int, end: int, batch_size: int = 50) ->
         status_codes_count[status_code] += 1
         if status_code not in [200, 201]:
             log_data = {
-                "timestamp": line.timestamp,
-                "method": line.method,
                 "endpoint": line.endpoint,
                 "status_code": line.status_code,
-                "response_time_ms": line.response_time_ms,
-                "traceback": "\n".join(line.traceback)
+                "traceback": line.traceback[-1]
             }
             errors.append(log_data)
-            if len(errors) >= batch_size:
-                logger.info("Sending batch to llm")
-                sample = errors[0]
-                logger.debug(f"Sample log for LLM: {sample}")
-                summary = send_log_batch(errors)
-                summaries.append(summary)
-                errors.clear()
-    if errors:
-        summary = send_log_batch(errors)
-        summaries.append(summary)
     return {
         "total_logs": total,
         # raw sum not avg - needed for correct merge
         "response_time_sum": response_time_sum,
         "status_codes_count": status_codes_count,
-        "summaries": summaries
+        "summaries": summaries,
+        "errors": errors
     }
 
 
-def streaming_processor_v3(file_path: str) -> dict:
+def streaming_processor(file_path: str, max_bytes: Optional[int] = None) -> dict:
     """Parallel streaming processor using ProcessPoolExecutor.
 
     Args:
@@ -190,11 +104,12 @@ def streaming_processor_v3(file_path: str) -> dict:
         Merged stats from all workers
     """
     num_workers = os.cpu_count() // 2
-    boundaries = get_chunk_boundaries(file_path, num_workers)
+    boundaries = get_chunk_boundaries(
+        file_path, num_workers, max_bytes=max_bytes)
 
     with ProcessPoolExecutor(max_workers=num_workers, initializer=setup_default_logging, initargs=(logging.DEBUG,)) as executor:
         futures = [
-            executor.submit(process_chunk, file_path, start, end)
+            executor.submit(process_chunk, file_path, start, end, 10)
             for start, end in boundaries
         ]
         results = [f.result() for f in futures]
@@ -208,10 +123,11 @@ def streaming_processor_v3(file_path: str) -> dict:
             if status_code not in merged_status_counts:
                 merged_status_counts[status_code] = 0
             merged_status_counts[status_code] += count
-
+    all_errors = [e for r in results for e in r["errors"]]
+    # llm call later
     return {
         "total_logs": total,
         "avg_response_time_ms": response_time_sum / total if total > 0 else 0,
         "status_codes_count": merged_status_counts,
-        "summaries": [s for r in results for s in r["summaries"]]
+
     }

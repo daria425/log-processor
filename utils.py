@@ -1,7 +1,7 @@
 import re
 import os
 from dataclasses import dataclass, field
-
+from typing import Optional
 pattern = re.compile(
     r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d+) - (\w+) - (.+) - (\d{3}) - (\d+ms)')
 
@@ -58,7 +58,7 @@ def parse_log_line_regex(line):
     return None
 
 
-def get_chunk_boundaries(file_path: str, num_workers: int) -> list[tuple[int, int]]:
+def get_chunk_boundaries(file_path: str, num_workers: int, max_bytes: Optional[int] = None) -> list[tuple[int, int]]:
     """Split file into num_workers chunks aligned to line boundaries.
 
     Args:
@@ -69,6 +69,8 @@ def get_chunk_boundaries(file_path: str, num_workers: int) -> list[tuple[int, in
         List of (start_byte, end_byte) tuples
     """
     file_size = os.path.getsize(file_path)
+    if max_bytes:
+        file_size = min(file_size, max_bytes)
     chunk_size = file_size // num_workers
     boundaries = []
 
@@ -93,3 +95,25 @@ def get_chunk_boundaries(file_path: str, num_workers: int) -> list[tuple[int, in
             boundaries.append((start, end))
 
     return boundaries
+
+
+def load_system_prompt(prompt_path: str) -> str:
+    """Load system prompt from a text file.
+
+    Args:
+        prompt_path: Path to the system prompt text file
+    """
+    with open(prompt_path, 'r') as f:
+        return f.read()
+
+
+def set_env_vars(env_vars: dict) -> None:
+    """Set environment variables from a dictionary.
+
+    Args:
+        env_vars: Dictionary of environment variable names and values. 
+                  None values are skipped to avoid crashes.
+    """
+    for key, value in env_vars.items():
+        if value is not None:
+            os.environ[key] = str(value)
