@@ -17,6 +17,24 @@ class Profiler:
         elapsed_time = time.perf_counter() - start_time
         return elapsed_time
 
+    def profile_lightweight(self, *args, **kwargs):
+        """Time + memory separately to avoid tracemalloc fork inheritance."""
+        # timing pass - no tracemalloc
+        start = time.perf_counter()
+        self.func(self.file_path, *args, **kwargs)
+        elapsed = time.perf_counter() - start
+
+        # memory pass - small slice only
+        tracemalloc.start()
+        self.func(self.file_path, max_bytes=50 * 1024 * 1024, *args, **kwargs)
+        _, peak = tracemalloc.get_traced_memory()
+        tracemalloc.stop()
+
+        return {
+            "true_elapsed_time": elapsed,
+            "peak_memory_usage_mb": peak / (1024 * 1024),
+        }
+
     def profile(self):
 
         profiler = cProfile.Profile()

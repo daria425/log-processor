@@ -3,6 +3,7 @@ import logging
 from concurrent.futures import ProcessPoolExecutor
 from typing import Optional
 from parser import aggregate_lines
+import time
 from logger import setup_default_logging
 from utils import get_chunk_boundaries
 
@@ -20,6 +21,7 @@ def read_lines(file_path: str, boundaries: Optional[tuple[int, int]], buffer_siz
             lines = (remainder + chunk).split(b"\n")
             remainder = lines.pop()  # last line may be incomplete
             for line in lines:
+                # bottleneck:  iterator protocol (a __next__ call + exception check) on every single line
                 yield line.decode("utf-8")
         if remainder:
             yield remainder.decode("utf-8")
@@ -41,6 +43,26 @@ def process_chunk(file_path: str, start: int, end: int, batch_size: int = 50) ->
     return aggregate_lines(lines)
 
 
+def profile_worker(file_path: str, start: int, end: int, batch_size: int = 50):
+    t0 = time.perf_counter()
+    lines = read_lines(file_path, boundaries=(start, end))
+    result = aggregate_lines(lines)
+    print(f"aggregate_lines: {time.perf_counter() - t0:.2f}s")
+    return result
+
+
+def profile_worker_read_time(file_path: str, start: int, end: int, batch_size: int = 50):
+    t0 = time.perf_counter()
+    for _ in read_lines(file_path, boundaries=(start, end)):
+        pass
+    t1 = time.perf_counter()
+    lines = read_lines(file_path, boundaries=(start, end))
+    result = aggregate_lines(lines)
+    t2 = time.perf_counter()
+    print(f"read: {t1 - t0:.2f}s | parse: {t2 - t1:.2f}s")
+    return result
+
+
 def streaming_processor(file_path: str, max_bytes: Optional[int] = None) -> dict:
     """Parallel streaming processor using ProcessPoolExecutor.
 
@@ -56,7 +78,8 @@ def streaming_processor(file_path: str, max_bytes: Optional[int] = None) -> dict
 
     with ProcessPoolExecutor(max_workers=num_workers, initializer=setup_default_logging, initargs=(logging.DEBUG,)) as executor:
         futures = [
-            executor.submit(process_chunk, file_path, start, end, 10)
+            executor.submit(process_chunk,
+                            file_path, start, end, 10)
             for start, end in boundaries
         ]
         results = [f.result() for f in futures]
